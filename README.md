@@ -39,7 +39,6 @@ src/
 Set your Anthropic API key in `src/app/api/chat/route.ts` (line 3) or move to `.env.local`:
 
 ```
-ANTHROPIC_API_KEY=sk-ant-...
 ```
 
 ## Video layers

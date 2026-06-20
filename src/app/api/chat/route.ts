@@ -1,7 +1,6 @@
 import { NextRequest, NextResponse } from "next/server";
 
-const ANTHROPIC_API_KEY = "U can replace this with your own key from https://console.anthropic.com/";
-
+const ANTHROPIC_API_KEY = process.env.ANTHROPIC_API_KEY || "";
 // Free-to-use audio from Pixabay (no account needed, direct MP3 links)
 const TRENDING_AUDIO = [
   { name: "Inspiring Corporate", artist: "Trending Beat", url: "https://cdn.pixabay.com/audio/2023/10/30/audio_9dece9f2e5.mp3" },
